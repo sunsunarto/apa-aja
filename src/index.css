@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Geist+Mono&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@1,200&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #88d498;
+}
+
+.logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color:  #1a936f;
+  border: 0.1em solid;
+  background-color: #f3e9d2;
+  position: relative;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 2em;
+  border-radius: 1em;
+  width: 90%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #73b57c;
+}
+
+nav {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 1.5em
+}
+
+img {
+  width: 4%;
+  display: flex;
+  position: absolute;
+  left: 35%;
+  top: -0.1em;
+}
